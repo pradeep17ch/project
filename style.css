@@ -1,0 +1,151 @@
+.mainimg{
+	width: 70%;
+
+}
+
+.img1{
+	width: 100%;
+}
+
+
+
+.solid{
+	border-style: :solid;
+}
+
+.black{
+	border-color: black;
+}
+
+.bgc{
+	background-color: black;
+	color: white;
+	border-right-style: solid;
+	border-right-color: #70e2ff;
+	border-left-style: solid;
+	border-left-color: #70e2ff;
+    border-top-style: solid;
+    border-top-color: #70e2ff;
+    border-bottom-style: solid;
+    border-bottom-color: #70e2ff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.bg{
+	/*border-style: solid;
+	/*border-color: white;*/
+	color: white;
+	min-width: 25%;
+	
+	/*background-color: white;*/
+}
+a:link{
+  color:white;
+}
+a:visited{
+  color:white;
+}
+a:hover{
+  color:white;
+}
+a:focus{
+  color:white;
+}
+a:active{
+  color:white;
+}
+a:visited{
+color:white;
+
+};
+
+.team{
+	width:1500px;
+	border: solid;
+	border-color: black;
+
+}
+.centered{
+    display: inline-block;
+    vertical-align: middle;
+
+	
+}
+
+.page{
+	background-color: white; 
+}
+
+.t{
+	
+	border-bottom-style:solid;
+	border-color: #70e2ff;
+}
+
+.pg{
+	background-color: black;
+}
+
+.b{
+	border-top-style: solid;
+	border-top-color: #38e9ef;
+
+
+	border-bottom-style: solid;
+	border-bottom-color: black;
+background-color: #70e2ff;
+}
+
+.l{
+display: flex;
+}
+
+.title{
+	background-color: black;
+	color:white;
+}
+
+.i{
+	margin-left: 40%;
+	width:20%;
+}
+
+ul{
+            padding: 0;
+          list-style: none;
+            z-index: 1;
+            position:center;
+            
+        }
+        ul li{
+            float: left;
+            width: 100%;
+            text-align: center;
+        }
+        
+        ul li a{
+            visibility: visible;
+            display: block;
+            padding: 10px 10px;
+            color: white;
+            background: black;
+            text-decoration: none;
+            width:160;
+
+        }
+        ul li a:hover{
+            color: black;
+            background: white;
+        }
+        ul li ul{
+            visibility: hidden;
+            display: none;
+        }
+        ul li:hover ul{
+            visibility: visible;
+            display: block;
+            position:absolute;
+        }
+        ul li:hover ul li {
+         float:none;
+        }
